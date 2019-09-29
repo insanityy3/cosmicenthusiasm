@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+
+/*=======================================================
+                        Header Section
+=======================================================*/
+
+.navbar {
+    padding: 20px 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.its-top-nav {
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.navbar-brand {
+    padding: 0 !important;
+}
+
+.navbar .navbar-brand h3 {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.navbar-nav>li>a {
+    padding: 15px;
+    padding-left: 20px !important;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.navbar-nav>li>a:hover {
+    color: #34c6d3 !important;
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+
+.navbar-toggler-icon {
+    color: #fff !important;
+}
+
+.its-top-nav ul.navbar-nav>li.nav-item>a.active {
+    color: #34c6d3 !important;
+}
+
+
+/*=============================================
+                home section
+==============================================*/
+
+#home .container-fluid {
+    padding: 0;
+}
+
+.img-fluid {
+    height: 660px !important;
+}
+
+
+/*=============================================
+                footer section
+==============================================*/
+
+footer {
+    width: 100%;
+    height: 60%;
+    background-image: url("../images/test4.jpg");
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+footer ul {
+    padding-top: 13%;
+    list-style-type: none;
+}
+
+footer ul li {
+    padding-left: 0;
+    display: inline-block;
+}
+
+footer ul li a {
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+/*=============================================
+                About Us page
+==============================================*/
+
+#about-us {
+    margin-top: 200px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+#about-us img {
+    width: 100%;
+    height: 650px !important;
+}
+
+
+/*=============================================
+                Contact Us page
+==============================================*/
+
+#contact-us {
+    margin-top: 200px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+#contact-us img {
+    width: 100%;
+    height: 700px !important;
+}
